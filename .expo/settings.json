@@ -1,0 +1,9 @@
+{
+  "hostType": "lan",
+  "lanType": "ip",
+  "dev": true,
+  "minify": false,
+  "urlRandomness": "Sc3Yd-A",
+  "https": false,
+  "scheme": "exp+with-webrtc"
+}

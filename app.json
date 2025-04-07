@@ -2,6 +2,31 @@
   "expo": {
     "plugins": [
       "@config-plugins/react-native-webrtc"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "beb90fe4-5a04-4aee-bbff-a619123518fa"
+      }
+    },
+    "android": {
+      "package": "com.usuarioparaexpo.withwebrtc",
+      "permissions": [
+        "CAMERA",
+        "RECORD_AUDIO",
+        "INTERNET"
+      ]
+    },
+    "permissions": [
+      "CAMERA",
+      "MICROPHONE"
+    ],
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "ios": {
+      "bitcode": false,
+      "bundleIdentifier": "com.usuarioparaexpo.withwebrtc"
+    }
   }
 }
